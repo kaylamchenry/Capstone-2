@@ -1,4 +1,347 @@
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    padding-top: 100px;
+    display: flex;
+    }
+    
+    nav {
+        background-color: #021944; /* Navbar background color */
+        color: rgb(16, 8, 8); /* Text color */
+        
+        display: flex;
+    }
+    
+    .navbar-brand {
+        font-size: 24px; /* Adjust font size of the brand/logo */
+        color: #47bac9;
+        letter-spacing: 2px;
+        text-align: left;
+        float:left;
+        padding-left: 3%;;
+        padding-right:24%;
+        margin-left:10px;
+        position: left;
+        border-radius: 100px;
+         
+    }
+    
+    .nav-link {
+        color: rgb(255, 255, 255); /* Change link text color */
+        padding-right: 20px; /* Adjust the margin as needed */
+    }
+    
+
+
+
+    /* Add hover effect for links */
+    .nav-link:hover {
+        color: #7fbecf;
+        text-decoration: underline;
+    
+    }
+    @media (max-width: 100px) {
+        #carouselExampleFade {
+            width: 10%;
+            height: 20px; /* Adjust the height for smaller screens */
+            display: flex;
+        }
+    }
+     /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+    
+    #slideshowwrapy{
+    max-height: 500px;
+    
+    }
+    
+    /* slider section */
+    .slider_section {
+        -webkit-box-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        background-size: cover;
+        background-position: bottom;
+      }
+      
+      .slider_section .row {
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+      }
+      
+      .slider_section #customCarousel1 {
+        width: 100%;
+        position: unset;
+      }
+      
+      .slider_section .detail-box {
+        padding-bottom: 90px;
+      }
+      
+      .slider_section .detail-box h1 {
+        
+        margin-bottom: 25px;
+        color: #1f101d;
+      }
+      
+      .slider_section .detail-box p {
+        color: #444;
+        font-size: 15px;
+        
+      }
+      
+      .slider_section .detail-box a {
+       
+        margin-bottom: 25px;
+        color: #ac359c;
+        text-transform: uppercase;
+        padding: 10px 45px;
+        background-color: #76b8cc7a;
+        border: 1px solid #47bac9;
+        border-radius: 5px;
+        color: #ffffff;
+        margin-top: 15px;
+      }
+      
+      .slider_section .detail-box a:hover {
+        background-color: transparent;
+        color: #38a7db68;
+      }
+      
+      .slider_section .img-box img {
+        width: 100%;
+
+     
+      }
+      .about_section .detail-box p {
+        margin-top: 10px;
+        
+      }
+      
+      .about_section .detail-box a {
+        margin-top: 15px;
+        display: inline-block;
+        font-family: 'Merriweather Sans', sans-serif;
+        text-transform: uppercase;
+        padding: 10px 45px;
+        background-color: #76b8cc7a;
+        border: 1px solid #47bac9;
+        border-radius: 2px;
+        color: #ffffff;
+        
+      }
+      
+      .about_section .detail-box a:hover {
+        background-color: transparent;
+        color: #38a7db68;
+      }
+      
+      .about_section .img-box img {
+        width: 100%;
+        padding-bottom: 50px;
+      }
+    
+      h1, h2, h3, h4, h5, h6, p, a{
+        font-family: 'Montserrat', sans-serif;
+    
+      }
+    
+      .dropdown-menu{
+        position: static;
+      }
+    
+      body{
+        font-family: sans-serif;
+        background-color: rgb(255, 255, 255);
+        
+       
+    
+    }
+    
+.form_select{
+  background-color: #7fbecf;
+}
+
+    /* background-image: url("../images/topography.png");
+    background-repeat: repeat; */
+    
+    * {
+        margin: auto;
+        padding: auto;
+    }
+
+    
+ 
+#selector{
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+#selects{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  width:50%;
+}
+
+div.gallery {
+  border: 1px solid #ffffff;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 body {
-    margin: 0px;
-    padding: 0px;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #fffefe;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #649bd3;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #0cb5a1;
+}
+
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid rgb(255, 255, 255);
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
 }
