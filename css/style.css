@@ -154,6 +154,7 @@ h1{
     
       h1, h2, h3, h4, h5, h6, p, a{
         font-family: 'Montserrat', sans-serif;
+        
     
       }
     
@@ -168,10 +169,6 @@ h1{
        
     
     }
-    
-.form_select{
-  background-color: #7fbecf;
-}
 
     /* background-image: url("../images/topography.png");
     background-repeat: repeat; */
@@ -268,17 +265,20 @@ body {
 .col-50 {
   -ms-flex: 50%; /* IE10 */
   flex: 50%;
+  background-color: rgb(215, 246, 254);
 }
 
 .col-75 {
   -ms-flex: 75%; /* IE10 */
   flex: 75%;
+  background-color:rgb(215, 246, 254);
 }
 
 .col-25,
 .col-50,
 .col-75 {
   padding: 0 16px;
+  background-color: rgb(215, 246, 254);
 }
 
 .container {
@@ -299,6 +299,7 @@ input[type=text] {
 label {
   margin-bottom: 10px;
   display: block;
+  background-color:rgb(215, 246, 254);
 }
 
 .icon-container {
@@ -309,7 +310,7 @@ label {
 
 .btn {
   background-color: #649bd3;
-  color: white;
+  color: rgb(215, 246, 254);
   padding: 12px;
   margin: 10px 0;
   border: none;
@@ -344,4 +345,6 @@ span.price {
   .col-25 {
     margin-bottom: 20px;
   }
+
 }
+

@@ -4,12 +4,15 @@ function cookingEggs(numberofEggs) {
 let numberofEggs = numberofEggs
 
 //algorithm
-console.log("turn on the stove");
-console.log("wait until water boils");
-console.log("put the" + numberofEggs+ 'eggs into the water");:
-console.log("wait 6 mminutes");
-console.log("take eggs out of the water");
-console.log("cool them down in coold water");
+// Assuming you have a variable named 'numberOfEggs' defined somewhere in your code
+const numberOfEggs = 6;
+
+console.log("Turn on the stove");
+console.log("Wait until water boils");
+console.log("Put the " + numberOfEggs + " eggs into the water");
+console.log("Wait 6 minutes");
+console.log("Take eggs out of the water");
+console.log("Cool them down in cold water");
 
 //output
 console.log("serve 6 eggs to 3 people");
@@ -38,9 +41,9 @@ console.log('Hi my name is Firstname,Lastname')
 //n and m are natural numbers (positive integers)
 //m is excluded from the multiples
 //Examples
-sumMul(2, 9)   ==> 2 + 4 + 6 + 8 = 20
-sumMul(3, 13)  ==> 3 + 6 + 9 + 12 = 30
-sumMul(4, 123) ==> 4 + 8 + 12 + ... = 1860
-sumMul(4, -7)  ==> "INVALID"
+//sumMul(2, 9)   ==> 2 + 4 + 6 + 8 = 20
+//sumMul(3, 13)  ==> 3 + 6 + 9 + 12 = 30
+//sumMul(4, 123) ==> 4 + 8 + 12 + ... = 1860
+//sumMul(4, -7)  ==> "INVALID"
 
 
