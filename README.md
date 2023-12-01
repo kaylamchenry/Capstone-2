@@ -26,7 +26,7 @@ Start your journey into the heart of the outdoors with **Peaks & Parks** Let the
 ## Nat-parks.html
    A dedicated page to display inventory available for purchase.
 
-   ![Screenshot](images/Nat-ParkScreenshot.png)
+   ![Screenshot](images/Nat-ParkScrenshot.png)
    
 ## Signup.html
    This page presents all the necesarry information and options related to the checkout process. Including paymemt options and adding items to a shopping cart.
