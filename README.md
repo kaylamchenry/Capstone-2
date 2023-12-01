@@ -21,7 +21,7 @@ Start your journey into the heart of the outdoors with **Peaks & Parks** Let the
 ## Mountain-Page, Mountain.html 
    These pages manage the user exoerience pertaining to account creatuin and user authention, allowuing users to access the website.
 
-   ![Screenshot](images/MountainspageScreenshot.png)
+   ![Screenshot](images/MountainspageScrenshot.png)
 
 ## Nat-parks.html
    A dedicated page to display inventory available for purchase.
